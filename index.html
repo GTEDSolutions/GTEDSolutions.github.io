@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>GTED Solutions</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+
+		<link rel="stylesheet" href="css/style.css" />
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+    <script src="js/index.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+          (function(){
+              emailjs.init({
+                publicKey: "CFBv5TvTR_mcxqi_k",
+              });
+          })();
+    </script>
+	</head>
+	<body>
+	<div class="svg-wrap">
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
+      </svg>
+
+      <svg width="64" height="64" viewBox="0 0 64 64">
+        <path id="arrow-right" d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+      </svg>
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+   <div class="container-fluid">
+
+    <!-- HEADER -->
+
+    <section id="header">
+
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-fixed-top navbar-default bottom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="images/logo.png" alt="" class="img-logo">
+            <a class="navbar-brand" href="#header">GTED Solutions</a>
+          </div><!-- /.navbar-header -->
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>              
+              <li><a href="#portfolio">Services</a></li>
+			  <li><a href="#team">Testimonials</a></li>
+			  <li><a href="#info">Info</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+      </nav>
+
+      <!-- SLIDER -->
+      <div class="header-slide">
+        <section>
+          <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+              <path d="M 0,0 0,60 80,60 80,0 Z M 80,0 80,60 0,60 0,0 Z"/>
+            </svg>
+          </div> <!-- /.pageload-overlay -->
+          
+          <div class="image-slide bg-fixed">
+            <div class="overlay">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+
+                    <div class="slider-content">
+                      <h1></h1>
+                      <p>We are a Financial Business from Melbourne, Australia</p>
+                    </div>
+
+                  </div> <!-- /.col-md-12 -->
+                </div> <!-- /.row -->
+              </div> <!-- /.container -->
+            </div> <!-- /.overlay -->
+          </div> <!-- /.image-slide -->
+
+          <nav class="nav-slide">
+            <a class="prev" href="#prev">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-left">
+                </svg>
+              </span>
+              <div>
+                <span>Prev Photo</span>
+                <h3>...</h3>
+                <p>...</p>
+                <img alt="Previous thumb">
+              </div>
+            </a>
+            <a class="next" href="#next">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-right">
+                </svg>
+              </span>
+              <div>
+                <span>Next Photo</span>
+                <h3>...</h3>
+                <p>...</p>
+                <img alt="Next thumb">
+              </div>
+            </a>
+          </nav>
+        </section>
+
+        <script type="text/javascript">
+        var dataHeader = [
+                            {
+                              bigImage :"images/slide-1.jpg",
+                              title : "Financial Planning Services",
+							  author : " "
+                            },
+                            {
+                              bigImage :"images/slide-2.jpg",
+                              title : "High Quality, Reliable and Timely Plans",
+                              author : " "
+                            },
+                            {
+                              bigImage :"images/slide-3.jpg",
+                              title : "Achieve Financial Success",
+                              author : " "
+                            }
+                        ],
+            loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
+            loaderSVG.show()
+        </script>
+
+      </div><!-- /.header-slide -->
+    </section>
+
+    <!-- HEADER END -->
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="light">
+      <header class="title">
+        <h2>About <span>Us</span></h2>
+
+        <p>Welcome to GTED Solutions, your trusted partner in financial planning. Based in the heart of Melbourne, we specialise in providing personalised financial advice that empowers individuals, families, and businesses to achieve their long-term financial goals.</p>
+      </header>
+
+      <div class="container">
+        <div class="row table-row">
+          <div class="col-sm-6 hidden-xs">
+            <div class="section-content">
+              <div class="big-image">
+                <img src="images/image1.jpeg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="section-content">
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-bullseye"></i></div>
+                <div class="about-detail">
+                  <h4>Our Mission</h4>
+                  <p>At GTED Solutions, we believe that everyone deserves the opportunity to build a secure financial future. Our mission is to provide clear, tailored financial strategies that simplify complex financial decisions, allowing you to focus on what truly matters in life.</p>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-id-badge"></i></div> 
+                <div class="about-detail">
+                  <h4> Who We Are</h4>
+                  <p>Founded by a team of experienced financial planners, we bring decades of expertise in wealth management, retirement planning, investment strategies, and risk management. We are dedicated to delivering transparent, results-driven solutions that are designed to grow, protect, and optimise your wealth.</p>
+                </div>
+              </div>
+
+              <div class="about-content left animated" data-animate="fadeInLeft">
+                <div class="about-icon"><i class="fa fa-thumbs-up"></i></div>
+                <div class="about-detail">
+                  <h4>Our Commitment to You</h4>
+                  <p>At GTED Solutions, we understand that financial planning can be overwhelming. That’s why our advisors are here to guide you every step of the way, helping you make informed decisions that give you peace of mind for the future.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /.row table-row -->
+      </div> <!-- /.container -->
+    </section>
+	
+	
+	    <!-- PORTFOLIO -->
+
+    <section id="portfolio" class="light">
+      <header class="title">
+        <h2>Services</h2>
+        <p>At GTED Solutions, we offer a comprehensive range of financial planning services, including wealth management, superannuation and retirement planning, investment advice, estate planning, and risk management solutions. Our goal is to provide personalised strategies that align with your financial objectives and help secure your future.</p>
+      </header>
+
+      <div class="container-fluid">
+        <div class="row">
+          <ul id="filters" class="list-inline">
+            <li data-filter="all" class="filter">All</li>
+            <li data-filter=".branding" class="filter">Wealth Creation & Management</li> 
+            <li data-filter=".graphic" class="filter">Superannuation & Retirement Planning</li> 
+            <li data-filter=".printing" class="filter">Taxation Strategies</li> 
+            <li data-filter=".video" class="filter">Risk Management & Insurance Solutions</li> 
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="container-portfolio">
+            <!-- PORTFOLIO OBJECT -->
+            <script type="text/javascript">
+            var portfolio = [
+                    {
+                      category : "branding",
+                      image : "images/p-1.png",
+                      title : " Tailored <span>Investment Strategies</span>",
+                      link : "#none",
+                      text : "We create personalised investment plans."
+                    },
+                    {
+                      category : "graphic",
+                      image : "images/p-4.jpeg",
+                      title : "Maximising <span>Superannuation Growth</span>",
+                      link : "#none",
+                      text : "We provide expert advice on your super contributions."
+                    },
+                    {
+                      category : "graphic",
+                      image : "images/p-3.jpeg",
+                      title : "Retirement <span>Income Strategies</span>",
+                      link : "#none",
+                      text : "Our team helps you create a sustainable retirement income plan."
+                    },
+                    {
+                      category : "video",
+                      image : "images/p-9.jpeg",
+                      title : "Comprehensive <span>Protection Plans</span>",
+                      link : "#none",
+                      text : "We offer tailored risk management strategies."
+                    },
+                    {
+                      category : "branding",
+                      image : "images/p-5.png",
+                      title : "Ongoing <span>Portfolio Management</span>",
+                      link : "#none",
+                      text : "Our team actively monitors your portfolio."
+                    },
+                    {
+                      category : "printing",
+                      image : "images/p-6.jpeg",
+                      title : "Tax-Effective <span>Investment Planning</span>",
+                      link : "#none",
+                      text : "We design strategies that maximise returns."
+                    },
+                    {
+                      category : "printing",
+                      image : "images/p-7.png",
+                      title : "Superannuation <span>Tax Benefits</span>",
+                      link : "#none",
+                      text : "Our advisors help you benefit from super contributions."
+                    },
+                    {
+                      category : "printing",
+                      image : "images/p-8.png",
+                      title : "Personal & Business <span>Tax Optimisation</span>",
+                      link : "#none",
+                      text : "We provide tax planning for both individuals and businesses."
+                    }
+                ];
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="light">
+      <header class="title">
+        <h2>Business <span>Testimonials</span></h2>
+        <p>See what our clients have to say about their experience with GTED Solutions and how we've helped them achieve financial peace of mind and long-term success.</p>
+      </header>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown">
+              <div class="img-team">
+                <img src="images/team-1.jpeg" alt="" class="img-circle">
+              </div>
+
+              <h3>ASH MANGION</h3>
+              <h5>Bank Teller</h5>
+
+              <p>"GTED Solutions transformed our financial outlook! Their personalised approach to wealth management has grown our investments and provided us with peace of mind."</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <!-- <li><a href="#" class="fa fa-twitter"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-linkedin"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-facebook"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-google-plus"></a></li> -->
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="images/team-2.png" alt="" class="img-circle">
+              </div>
+
+              <h3>Tim Harris</h3>
+              <h5>Estimator and Contracting Officer</h5>
+
+              <p>"The team at GTED Solutions made our retirement planning so much easier. They guided us through every step, ensuring we maximise our superannuation and secure a stable income for our retirement."</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <!-- <li><a href="#" class="fa fa-twitter"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-linkedin"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-facebook"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-google-plus"></a></li> -->
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="images/team-2.jpeg" alt="" class="img-circle">
+              </div>
+
+              <h3>MARK LOUISE</h3>
+              <h5>Resolutions Officer</h5>
+
+              <p>"Thanks to GTED Solutions, we now have a clear, tax-efficient strategy that has significantly reduced our liabilities and increased our overall savings. Their expertise is truly unmatched!"</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <!-- <li><a href="#" class="fa fa-twitter"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-linkedin"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-facebook"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-google-plus"></a></li> -->
+                </ul> 
+              </div>                
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 text-center">
+            <div class="wrap animated" data-animate="fadeInDown"> 
+              <div class="img-team">
+                <img src="images/team-4.jpeg" alt="" class="img-circle">
+              </div>
+
+              <h3>SAM Marshall</h3>
+              <h5>Electrician</h5>
+
+              <p>"GTED Solutions provided us with comprehensive insurance coverage that perfectly fits our needs. We feel confident knowing our family's financial future is protected, no matter what happens."</p>
+
+              <div class="team-social">
+                <ul class="list-inline social-list">
+                  <!-- <li><a href="#" class="fa fa-twitter"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-linkedin"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-facebook"></a></li> -->
+                  <!-- <li><a href="#" class="fa fa-google-plus"></a></li> -->
+                </ul> 
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </section>
+	
+	    <!-- INFO -->
+
+    <section id="info" class="dark">
+      <header class="title">
+        <h2>Our <span>Experties</span></h2>
+        <p>With years of industry experience and in-depth knowledge of the Australian financial landscape, our team of expert advisors provides you with trusted, tailored solutions to meet your unique financial goals.</p>
+      </header>
+
+      <div class="container experties">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill">
+              <ul class="skill-bar list-unstyled">
+                <li><span class="percentage" data-value="70%"></span><em>Wealth Preservation</em></li>
+                <li><span class="percentage" data-value="95%"></span><em>Debt Management</em></li>
+                <li><span class="percentage" data-value="63%"></span><em>Estate Planning</em></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="skill">
+              <ul class="skill-bar list-unstyled">
+                <li><span class="percentage" data-value="86%"></span><em>Investment Management</em></li>
+                <li><span class="percentage" data-value="90%"></span><em>Superannuation Strategies</em></li>
+                <li><span class="percentage" data-value="79%"></span><em>Tax Planning</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+    </section>	
+	
+
+    <section class="separator blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="0">
+              <div class="counter-icon">
+                <i class="fa fa-group"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="43"></span>
+                <small>Clients</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="500">
+              <div class="counter-icon">
+                <i class="fa fa-clock-o"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="35"></span>
+                <small>Years of Experience</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
+              <div class="counter-icon">
+                <i class="fa fa-gears"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="2139"></span>
+                <small>Plans Completed</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
+              <div class="counter-icon">
+                <i class="fa fa-inbox"></i>
+              </div>
+              <div class="counter-content">
+                <span class="value" data-from="0" data-to="1298"></span>
+                <small>Mail</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FOOTER CONTACT -->
+     <section id="contact" class="dark">
+      <header class="title">
+        <h2>Contact <span>Us</span></h2>
+        <p>For personalized financial advice and to learn how we can help you achieve your financial goals, contact our expert team today – we’re here to assist with all your financial planning needs.</p>
+      </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 animated" data-animate="fadeInLeft">
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id = "name" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" id = "email" placeholder="Your Email">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" rows="3" id = "message" placeholder="Nature of your Enquiry"></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-default submit" onclick="sendMail()">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 animated" data-animate="fadeInRight">
+            <address>
+                <span><i class="fa fa-map-marker fa-lg"></i> Melbourne, Australia</span>
+                <span><i class="fa fa-phone fa-lg"></i> Email to receive phone contact </span>
+            </address>
+          </div>
+		  
+        </div>
+      </div>
+    </section>
+<!-- footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Made BY <i class="fa fa-star"></i> <a href="">Ethan Gibson-Booth</a></p>
+            <p><small></small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   </div><!-- /.container-fluid -->
+    
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

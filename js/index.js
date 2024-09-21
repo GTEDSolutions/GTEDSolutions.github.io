@@ -1,24 +1,24 @@
 // sending email
-// function sendMail(){
-//     var params = {
-//         name: document.getElementById("name").value,
-//         email: document.getElementById("email").value,
-//         message: document.getElementById("message").value,
-//     };
-//     const serviceID = "currently empty";
-//     const templateID = "currently empty";
+function sendMail(){
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
+    const serviceID = "service_7bsairt";
+    const templateID = "template_7v2d4ao";
 
-//     emailjs
-//     .send(serviceID, templateID, params)
-//     .then(
-//         res =>{
-//             document.getElementById("name").value = "";
-//             document.getElementById("email").value = "";
-//             document.getElementById("message").value = "";
-//             console.log(res);
-//             alert("your message sent successfully")
-//             }
-//         )
-//         .catch((err) => console.log(err));
-// }
+    emailjs
+    .send(serviceID, templateID, params)
+    .then(
+        res =>{
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            console.log(res);
+            alert("your message sent successfully")
+            }
+        )
+        .catch((err) => console.log(err));
+}
 
